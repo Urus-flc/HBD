@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Birthday Haruna</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="fv-wrapper">
+        <a class="btn-emergency-real">
+            <span class="btn-emergency-real-bottom"></span>
+            <span class="btn-emergency-real-top"><span>Push</span></span>
+        </a>
+    </div><!-- /.fv-wrapper -->
+
+    <div class="message">
+        <div class="message-wrapper">
+            <h2 class="message-ttl">Dear Haruna</h2><!-- /.message-ttl -->
+            <div class="message-tx">
+                    <a href="#!" class="btn btn--pink btn--raised btn--cubic">Read a message <i class="fas fa-angle-right fa-position-right"></i></a>
+                    <div class="message-rtx" id="mtx">
+                        <p class="message-rtx-tx">
+                            記念すべき20歳のお誕生日おめでとう！<br>こうしてはるの誕生日を一緒にお祝いできてとても幸せです。<br>
+                            やっと合法的にお酒が飲めるようになったね！これで外で一緒に飲める〜!<br>
+                            いつもいつもご飯作ってくれたり、食器も洗ってくれたり、洗濯とか、(フェ◯ラとかも嫌がらずやってくれたり)
+                            本当に本当にありがとうね♡<br>
+                            これからもはるの誕生日を隣で祝わせてな！<br>
+                            生まれてきてくれて<br>ありがとう<span　class="myName" id="myName">大輔より</span>
+                        </p>
+                    </div><!-- /.message-rtx -->
+            </div><!-- /.message-tx -->
+        </div><!-- /.message-wrapper -->
+    </div><!-- /.message -->
+
+    <div class="schedule">
+        <h2 class="schedule-ttl">Today's Plan</h2><!-- /.schedule-ttl -->
+        <div class="contents-wrapper">
+            <div class="content">
+                <p class="left" id="c1">12:30 ~ 14:00</p>
+                <p id="lunch">Lunch</p>
+            </div><!-- /.content -->
+            <div class="content">
+                <p class="left" id="c2">14:00 ~ 18:30</p>
+                <p>Secret</p>
+            </div><!-- /.content -->
+            <div class="content">
+                <p class="left" id="c3">18:30 ~ 19:00</p>
+                <p id="move">Move</p>
+            </div><!-- /.content -->
+            <div class="content">
+                <p class="left" id="c4">19:00 ~ 21:00</p>
+                <p>Dinner</p>
+            </div><!-- /.content -->
+            <div class="content">
+                <p class="left" id="c5">21:00 ~ 22:00</p>
+                <p id="goHome">Go Home</p>
+            </div><!-- /.content -->
+            <div class="content">
+                <p class="left" id="c6">22:00 ~ </p>
+                <p id="secret">Secret</p>
+            </div><!-- /.content -->
+        </div><!-- /.contents-wrapper -->
+    </div><!-- /.schedule -->
+
+    <div class="continue">
+        <div class="continue-wrapper">
+            <a href="#!" class="continue-btn">Continue</a><!-- /.continue-btn -->
+        </div><!-- /.continue-wrapper -->
+    </div><!-- /.continue -->
+
+    <footer class="footer">
+        <small>&copy;2020-09-23 Hruna's BirthDay</small>
+    </footer><!-- /.footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
